@@ -48,7 +48,7 @@ String readString(BufferedReader datain){
 			e.printStackTrace();
 		}
 		bReader = new BufferedReader(fr);
-		System.out.println("Begin read file" + FileName);
+		//System.out.println("Begin read file" + FileName);
 		temp1 = readString(bReader);// 从DXF文件中读取一个字符串
 		while (!temp1.equals("EOF")) {// 未到文件结束标志
 			temp1 = readString(bReader);
